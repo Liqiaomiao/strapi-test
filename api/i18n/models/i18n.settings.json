@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "i18ns",
+  "info": {
+    "name": "i18n"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "app": {
+      "type": "json"
+    }
+  }
+}
